@@ -1,0 +1,38 @@
+# .gitignore
+# What files to ignore in Git repository. See:
+#    
+#    https://git-scm.com/docs/gitignore
+#    http://gitignore.io
+
+# Temporary files
+*.bak
+*.log
+*.tmp
+*.swp
+*template*
+*.~
+[]
+*[#~]
+.*[#~]
+
+# Ignore Editor generated files
+.idea
+.vscode*
+
+# Ignore Mac generated files
+.DS_*
+__MAC*
+
+# --- Compiled files and libraries
+
+# Java
+*.clas
+
+# Python
+*.pyc
+
+# C/C++
+*.o
+*.a
+
+# End of file
